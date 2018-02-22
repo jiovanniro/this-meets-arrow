@@ -21,7 +21,7 @@ In this lab assignment we are going to walk through some key concepts to underst
 
 Your first task is to create an ES6 Person class with a constructor method and a printPlacesLived method. 
 
-The constructor should assign a value to this.name and array of cities to this.cities. 
+The constructor should assign a value to this.name and an array of cities to this.cities. 
 
 The printPlacesLived method should loop through each city stored in this.cities and print the name and places lived to the terminal. 
 
@@ -74,6 +74,15 @@ Your printPlacesLived method should now like this:
 ```
 In the terminal type: **node scripts.js**
 
+You should now this in the output: 
+
+```
+this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
+this is: undefined
+C:\Users\Nicot\Documents\Covalence\Labs\this-arrow\scripts.js:12
+            console.log(`${this.name} has lived at ${city}`);                                ^
+TypeError: Cannot read property 'name' of undefined
+```
 Notice that the first time we log *this* the Person class is printed but when we log *this* inside of the forEach function, *this* is undefined and so is 'name'.
 
 Lets fix this in Phase 2.
@@ -104,7 +113,7 @@ Covalence has lived at Nashville
 this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
 Covalence has lived at Bermingham
 ```
-Cool stuff but why does this work right?
+This is pretty awesome but why does this work right?
 
 ## HERES WHY
 
