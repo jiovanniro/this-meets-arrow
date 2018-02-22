@@ -74,7 +74,7 @@ Your printPlacesLived method should now like this:
 ```
 In the terminal type: **node scripts.js**
 
-You should now this in the output: 
+You should now see the following in the terminal: 
 
 ```
 this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
