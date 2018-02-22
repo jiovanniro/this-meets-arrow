@@ -1,4 +1,4 @@
-# this-meets-arrow
+# This meets arrow
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ let person = new Person();
 person.printPlacesLived();
 ```
 
-Yep. That's it. In the terminal type: node scripts.js 
+Yep. That's it. In the terminal type: **node scripts.js**
 
 You should now see the following output:
 
@@ -72,7 +72,7 @@ Your printPlacesLived method should now like this:
         });
     }
 ```
-In the terminal type: node scripts.js 
+In the terminal type: **node scripts.js**
 
 Notice that the first time we log *this* the Person class is printed but when we log *this* inside of the forEach function, *this* is undefined and so is 'name'.
 
@@ -94,7 +94,7 @@ Your scripts.js file should now look like this:
     }
 ```
 
-In the terminal type: node scripts.js 
+In the terminal type: **node scripts.js**
 
 You will now notice that everytime *this* is logged we see the Person class printed and most importantly that *this* is no longer undefined inside of the forEach function and 'name' is also no longer undefined. 
 
