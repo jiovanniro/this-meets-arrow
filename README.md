@@ -56,7 +56,7 @@ C:\Users\Nicot\Documents\Covalence\Labs\this-arrow\scripts.js:10
 
 TypeError: Cannot read property 'name' of undefined
 ```
-This about what happend and what may have caused 'name' to be undefined....... 
+Think about what happened and what may have caused 'name' to be undefined....... 
 
 
 Ok now that you had some time to think or play around with the code lets begin to understand what caused the error by adding two console.logs in the printPlacesLived method. 
