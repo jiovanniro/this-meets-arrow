@@ -79,7 +79,7 @@ You should now see the following in the terminal:
 ```
 this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
 this is: undefined
-C:\Users\Nicot\Documents\Covalence\Labs\this-arrow\scripts.js:12
+C:\Labs\this-arrow\scripts.js:12
             console.log(`${this.name} has lived at ${city}`);                                ^
 TypeError: Cannot read property 'name' of undefined
 ```
