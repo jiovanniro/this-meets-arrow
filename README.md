@@ -31,7 +31,7 @@ I'll be using Covalence as the "person" for the example but feel free to make yo
 class Person {
     constructor() {
         this.name = 'Covalence';
-        this.cities = ['Nashville', 'Bermingham'];
+        this.cities = ['Nashville', 'Birmingham'];
 
     };
 
@@ -51,7 +51,7 @@ Yep. That's it. In the terminal type: **node scripts.js**
 You should now see the following output:
 
 ```
-C:\Users\Nicot\Documents\Covalence\Labs\this-arrow\scripts.js:10
+C:...\this-arrow\scripts.js:10
             console.log(`${this.name} has lived at ${city}`);                                ^
 
 TypeError: Cannot read property 'name' of undefined
@@ -77,9 +77,9 @@ In the terminal type: **node scripts.js**
 You should now see the following in the terminal: 
 
 ```
-this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
+this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Birmingham' ] }
 this is: undefined
-C:\Labs\this-arrow\scripts.js:12
+C:...\this-arrow\scripts.js:12
             console.log(`${this.name} has lived at ${city}`);                                ^
 TypeError: Cannot read property 'name' of undefined
 ```
@@ -108,10 +108,10 @@ In the terminal type: **node scripts.js**
 You will now notice that everytime *this* is logged we see the Person class printed and most importantly that *this* is no longer undefined inside of the forEach function and 'name' is also no longer undefined. 
 
 ``` 
-this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
+this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Birmingham' ] }this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Birmingham' ] }
 Covalence has lived at Nashville
-this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Bermingham' ] }
-Covalence has lived at Bermingham
+this is: Person { name: 'Covalence', cities: [ 'Nashville', 'Birmingham' ] }
+Covalence has lived at Birmingham
 ```
 This is pretty awesome but why does this work right?
 
